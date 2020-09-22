@@ -1,0 +1,242 @@
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{
+  padding:15px 0; 
+  font-size:.8rem; 
+  text-transform:uppercase; 
+  text-align:center;
+  background-color: #222222;
+}
+
+#topbar *{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+
+#topbar ul li{
+  color: white;
+  display:inline-block; 
+  margin-right:10px; 
+  padding-right:15px; 
+  border-right:1px solid;
+  border-color:rgba(255,255,255,.2);
+}
+
+#topbar i{
+  margin:0 5px 0 0; 
+  line-height:normal;
+}
+
+#topbar a{
+  color: white;
+}
+
+#topbar a i:hover{
+  color: #EA5616;
+}
+
+/* Centro HEADER
+--------------------------------------------------------------------------------------------------------------- */
+#headerC{
+  margin-top: 100px;
+  text-align: center;
+  height: 140px;
+  background-color: white;
+}
+
+
+
+#headerC #logo h1{
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+
+
+}
+#headerC h3{
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+/* Formulario */
+#formulario h3{
+  margin-top: 20px;
+text-align: center;
+
+
+}
+#cont-form{
+
+  width: 500px;
+  height: 100%;
+
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left:auto; 
+  margin-bottom: 50px;
+}
+/* MENU mainav
+--------------------------------------------------------------------------------------------------------------- */
+#menu{
+  background-color: grey;
+}
+
+#mainav{
+  font-family: 'Baloo Paaji 2', cursive;
+  background-color: white; 
+  opacity: 70%;
+  font-size: 20px;
+}
+
+#mainav a{
+  text-decoration: none;
+  color: black;
+}
+
+#mainav a:hover{
+  color: #EA5616;
+}
+
+nav ul, nav ol{
+  margin:0; 
+  padding:0; 
+  list-style:none;
+}
+
+
+#mainav li li a, #mainav .active li a{
+  color:#FFFFFF; 
+  background-color:rgba(0,0,0,.6); 
+  border-color:rgba(0,0,0,.6);
+}
+#mainav li li:hover > a, #mainav .active .active > a{
+  color:#FFFFFF; 
+  background-color:#EA5616;
+}
+
+#mainav{
+  text-align:center;
+}
+
+#mainav ul{
+  text-transform:uppercase;
+}
+
+#mainav ul ul{z-index:9999; position:absolute; width:160px; text-transform:none; text-align:left;}
+#mainav ul ul ul{left:160px; top:0;}
+
+#mainav li{display:inline-block; position:relative; margin:0 30px 0 0; padding:0;}
+#mainav li li{width:100%; margin:0;}
+
+/* Tamaño del NAV */
+#mainav li a{display:block; padding:15px 0;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav .drop{padding-left:15px;}
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+
+#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+
+
+
+
+
+
+
+
+/* Footer */
+#footer{
+  background-color: #191A1E;
+}
+/* Footer COL-1 */
+#footer #f-col-1{
+  text-align: left;
+}
+#footer #f-col-1 h1{
+  color: white;
+  font-family: 'Lobster', cursive;
+  text-decoration:none;
+  font-size: 60px;
+  margin-top: 60px;
+}
+#footer #f-col-1 h3{
+  color: white;
+
+  font-weight: bold;
+}
+#footer #f-col-1 h1,h3,a{
+  margin-left: 30px;
+}
+
+/* Footer COL-2 */
+#footer #f-col-2{
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+#footer #f-col-2 h3{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+#footer #f-col-3{
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+#footer #f-col-3 h3{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+#c-c-1 h2{font-size: 18px;}
+#c-c-1 h5{font-size: 14px;}
+#c-c-1 p{font-size: 16px;}
+
+#c-c-2 h2{font-size: 18px;}
+#c-c-2 h5{font-size: 14px;}
+#c-c-2 p{font-size: 16px;}
+
+#footer #iconos{
+  padding-top: 20px;
+}
+
+
+#footer ul,i{
+  color: #A8A7A6;
+}
+
+#footer hr{border-color:rgba(255,255,255,.1);}
+
+/* ICONOS Font Awesome 
+--------------------------------------------------------------------------------------------------------------- */
+.faico{margin:0; padding:0; list-style:none;}
+.faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
+.faico li:last-child{margin-right:0;}
+.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+
+.faico a{color:#FFFFFF; background-color:#646464;}
+.faico a:hover{}
+
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copy{
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: font-family: Verdana
+}
+#copy p{
+  padding-top: 10px;
+}
